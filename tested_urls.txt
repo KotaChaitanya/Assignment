@@ -1,0 +1,10 @@
+http://127.0.0.1:5000/locations
+
+http://127.0.0.1:5000/locations/Perimeter/department
+
+
+http://127.0.0.1:5000/locations/Perimeter/department/Bakery/category
+
+http://127.0.0.1:5000/locations/Perimeter/department/Floral/category
+
+http://127.0.0.1:5000/locations/Perimeter/department/Floral/category/Gifts/subcategory/Gifts
