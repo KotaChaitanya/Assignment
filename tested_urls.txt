@@ -8,3 +8,34 @@ http://127.0.0.1:5000/locations/Perimeter/department/Bakery/category
 http://127.0.0.1:5000/locations/Perimeter/department/Floral/category
 
 http://127.0.0.1:5000/locations/Perimeter/department/Floral/category/Gifts/subcategory/Gifts
+
+
+delete:
+-------
+http://127.0.0.1:5000/deleterows
+
+{
+	"location":"Hyderabad",
+	"department":"flowers",
+	"category":"roses",
+	"subcategory":"red_roses"
+}
+
+post
+----
+
+http://127.0.0.1:5000/locations'
+
+{
+	"location":"Hyderabad",
+	"department":"flowers",
+	"category":"roses",
+	"subcategory":"red_roses"
+}
+
+skus
+----
+GM,Housewares,Beeding
+http://127.0.0.1:5000/getskus/locations/Permeter/department/GM/category/Housewares/subcategory/Beeding
+
+
